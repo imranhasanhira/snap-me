@@ -1,0 +1,3 @@
+Command to convert images to video
+ffmpeg -f image2 -r 6 -pattern_type glob -i '*.jpg' output.mp4
+
